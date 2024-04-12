@@ -1,0 +1,19 @@
+.animacion{
+    animation:moverse 5s forwards linear;
+    animation-iteration-count: 3;
+    animation-direction:alternate;
+
+}
+
+
+
+
+@keyframes moverse{
+    from{
+        margin-left: 20px;
+    } 
+    to{
+        margin-left: 500px;
+    }
+}
+
