@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Full viewport height */
+    margin: 0;
+    /* Remove default margin */
+    height: 100vh;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form div {
+    margin: 0;
+    background-color: lightsalmon;
+    color: azure;
+    display: flex;
+    width: fit-content;
+    border: solid black 10px;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    /* Optional: background color for header */
+    box-sizing: border-box;
+    /* Ensure padding is included in height */
+}

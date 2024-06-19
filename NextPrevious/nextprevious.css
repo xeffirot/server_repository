@@ -1,0 +1,42 @@
+body {
+    background-color: darkgrey;
+
+
+}
+
+.GRID {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2px;
+    margin: 50px;
+    align-content: center;
+
+
+}
+
+.box {
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.botones {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+button {
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+button:hover {
+    background-color: lightgoldenrodyellow;
+    cursor: pointer;
+}

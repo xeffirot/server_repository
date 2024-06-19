@@ -1,0 +1,61 @@
+.blythe1 img {
+    width: 1280px;
+    height: 720px;
+    margin-top: 100px;
+    border: 4px solid pink;
+    border-radius: 80%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.text1 {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 50px;
+    margin-top: 75px;
+}
+
+.button_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.button_container button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+    /* Adjusted margin for spacing between buttons */
+}
+
+#changeText {
+    color: aquamarine;
+    background: burlywood;
+}
+
+.btn {
+    border-radius: 30%;
+    background-color: indianred;
+    color: whitesmoke;
+
+}
+
+.form input {
+    background-color: indianred;
+
+}

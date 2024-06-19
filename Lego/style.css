@@ -1,0 +1,17 @@
+.boton {
+    background-color: orange;
+    color: black;
+    width: fit-content;
+    border: 2px solid black;
+    border-radius: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 4px;
+    margin-top: 400px;
+    margin-left: 400px;
+}
+
+.boton:hover {
+    background-color: darkorange;
+
+}
